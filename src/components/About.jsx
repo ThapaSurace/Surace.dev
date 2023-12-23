@@ -35,7 +35,7 @@ const About = () => {
               applications & websites. I build WebApps and Websites using MERN
               Stack. Working for myself to improve my skills.
             </Typography>
-            <Button className="mt-4 dark:bg-white text-black">Resume</Button>
+            <Button className="mt-4 text-white bg-dark-background dark:bg-white dark:text-black">Resume</Button>
           </div>
         </div>
         </div>
