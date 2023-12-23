@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='font-light'>
         <span>&copy; Suresh Thapa</span>
       </div>
-      <ul className='flex gap-4 text-sm text-gray-400 font-light'>
+      <ul className='flex gap-4 text-sm dark:text-gray-400 font-light'>
         {
           navLinks.map(link=>(
             <Link key={link.id} to={link.path} duration={500} smooth={true} offset={-50}>

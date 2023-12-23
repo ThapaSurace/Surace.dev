@@ -50,12 +50,12 @@ const Projects = () => {
                       ))}
                     </div>
                     <div className="flex gap-4 items-center">
-                      <a href={p.github_link} className="flex gap-2 items-center border border-white py-2 px-5 rounded-md">
+                      <a href={p.github_link} className="flex gap-2 items-center border border-white py-2 px-5 rounded-md text-white">
                         <FaGithubAlt size={30} />
                         <span className="text-xl">code</span>
                       </a>
 
-                      <a href={p.demo_link} className="flex gap-2 items-center border border-white py-2 px-5 rounded-md">
+                      <a href={p.demo_link} className="flex gap-2 items-center border border-white py-2 px-5 rounded-md text-white">
                         <IoMdArrowDroprightCircle size={30} />{" "}
                         <span className="text-xl">demo</span>
                       </a>

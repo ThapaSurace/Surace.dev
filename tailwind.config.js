@@ -41,6 +41,7 @@ module.exports = withMT({
       backgroundImage: {
         "hero-image":
           "url('https://img.freepik.com/premium-photo/surreal-composition-beautiful-multicolored-robot-generative-ai_372999-12663.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702771200&semt=ais')",
+          "about-me-img": "url('https://sm.pcmag.com/pcmag_uk/news/w/which-ai-c/which-ai-creates-the-best-and-most-terrifying-art_za8t.jpg')"
       },
     },
   },
