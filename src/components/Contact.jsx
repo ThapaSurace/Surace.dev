@@ -4,14 +4,22 @@ import { Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="h-screen flex justify-center items-center">
-      <div className="max-w-6xl mx-auto w-full">
-      <Typography variant="h1" className="text-center text-4xl mb-10">Contact</Typography>
-        <div className="md:flex md:items-center md:gap-10">
+    <section id="contact" className="h-screen flex flex-col">
+     <div>
+     <Typography variant="h1" className="text-center mb-10 mt-10">
+        Contact
+      </Typography>
+      <div className="max-w-6xl mx-auto w-full flex-1 flex justify-center items-center">
+        <div className="md:flex md:items-center md:gap-10 w-full">
           <div className="max-w-lg mx-auto px-6 mb-6 md:flex-1 border-b border-white pb-8 md:border-none md:pb-0">
-            <Typography variant="h3" className="text-4xl">Got a problem to solve?</Typography>
-            <Typography variant="paragraph" className="my-4 dark:text-dark-muted">
-            Get in touch with me via social media or email.
+            <Typography variant="h3" className="text-4xl">
+              Got a problem to solve?
+            </Typography>
+            <Typography
+              variant="paragraph"
+              className="my-4 dark:text-dark-muted"
+            >
+              Get in touch with me via social media or email.
             </Typography>
             <div className="flex gap-3 items-center">
               <Mail />
@@ -70,6 +78,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+     </div>
     </section>
   );
 };
